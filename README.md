@@ -19,9 +19,7 @@ npx shadcn@latest init
 Add UI
 
 ```bash
-npx shadcn@latest add button
-npx shadcn@latest add sonner
-npx shadcn@latest add dropdown-menu
+npx shadcn@latest add button sonner dropdown-menu input label card
 ```
 
 ### Supabase Install:
