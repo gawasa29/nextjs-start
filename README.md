@@ -25,8 +25,7 @@ npx shadcn@latest add button sonner dropdown-menu input label card
 ### Supabase Install:
 
 ```bash
-npm install supabase
-npm install @supabase/ssr @supabase/supabase-js
+npm install supabase @supabase/ssr @supabase/supabase-js
 ```
 
 ### [Declare Supabase Environment Variables:](https://supabase.com/docs/guides/getting-started/quickstarts/nextjs)
@@ -110,7 +109,33 @@ touch lib/supabase/middleware.ts
 touch lib/supabase/server.ts
 ```
 
-## Getting Started
+### Install Other Packages:
+
+```bash
+npm install supabase @supabase/ssr @supabase/supabase-js
+```
+
+### GitHub Upload:
+
+Initialize
+
+```bash
+git init
+```
+
+Create GitHub repository
+
+```bash
+gh repo create nextjs-start --private --source=. --remote=origin
+```
+
+```bash
+git add .
+git commit -m 'init commit'
+git push origin main
+```
+
+## Getting Started:
 
 First, run the development server:
 
@@ -120,7 +145,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## How It Works
+## How It Works:
 
 The app is powered by:
 
@@ -134,7 +159,7 @@ The app is powered by:
 
 - 💳 [Stripe](https://stripe.com/) for billing
 
-## Learn More
+## Learn More:
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -144,7 +169,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy on Vercel:
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
