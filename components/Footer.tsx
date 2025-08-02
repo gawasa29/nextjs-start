@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="space-y-4">
-          <h3 className="text-sm font-medium">Product</h3>
+          <h3 className="text-sm font-medium">Links</h3>
           <ul className="space-y-2">
             <li>
               <Link
