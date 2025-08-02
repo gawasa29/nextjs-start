@@ -112,7 +112,8 @@ touch lib/supabase/server.ts
 ### Install Other Packages:
 
 ```bash
-npm install supabase @supabase/ssr @supabase/supabase-js
+npm install disposable-email-domains
+npm install react-hook-form
 ```
 
 ### GitHub Upload:
