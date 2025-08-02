@@ -5,8 +5,8 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "AI Movie Poster Generator",
-  description: "Transform your ideas into stunning movie posters with AI.",
+  title: "Next.js Starter",
+  description: "Next.js Starter",
 }
 
 export default function RootLayout({
