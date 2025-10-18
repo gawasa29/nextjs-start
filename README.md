@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ### [Create Next App:](https://nextjs.org/docs/app/api-reference/cli/create-next-app)
 
 ```bash
-npx create-next-app@latest
+pnpm dlx create-next-app@latest
 ```
 
 ### [Shadcn UI:](https://ui.shadcn.com/docs/installation/next)
@@ -13,19 +13,19 @@ npx create-next-app@latest
 Install and configure shadcn/ui for Next.js.
 
 ```bash
-npx shadcn@latest init
+pnpm dlx shadcn@latest init
 ```
 
 Add UI
 
 ```bash
-npx shadcn@latest add button sonner dropdown-menu input label card
+pnpm dlx shadcn@latest add button sonner dropdown-menu input label card
 ```
 
 ### Supabase Install:
 
 ```bash
-npm install supabase @supabase/ssr @supabase/supabase-js
+pnpm install supabase @supabase/ssr @supabase/supabase-js
 ```
 
 ### [Declare Supabase Environment Variables:](https://supabase.com/docs/guides/getting-started/quickstarts/nextjs)
@@ -88,7 +88,7 @@ mkdir types
 Generate types for your project to local development produce the supabase.ts file
 
 ```bash
-npx supabase gen types typescript --local > types/supabase.ts
+pnpm dlx supabase gen types typescript --local > types/supabase.ts
 ```
 
 Create file
@@ -112,39 +112,8 @@ touch lib/supabase/server.ts
 ### Install Other Packages:
 
 ```bash
-npm install disposable-email-domains
-npm install react-hook-form
+pnpm install zod
 ```
-
-### GitHub Upload:
-
-Initialize
-
-```bash
-git init
-```
-
-Create GitHub repository
-
-```bash
-gh repo create nextjs-start --private --source=. --remote=origin
-```
-
-```bash
-git add .
-git commit -m 'init commit'
-git push origin main
-```
-
-## Getting Started:
-
-First, run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## How It Works:
 
